@@ -21,7 +21,7 @@ export default observer(function ActivityDetails() {
             <Image src={`/assets/categoryImages/${activity.category}.jpg`} />
             <Card.Content>
                 <Card.Header>{activity.title}</Card.Header>
-                <Card.Meta>
+            <Card.Meta>
                     <span>{activity.date}</span>
                 </Card.Meta>
                 <Card.Description>
